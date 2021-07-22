@@ -1,0 +1,33 @@
+body{
+    background-color: black;  
+    width: 1200px;
+}
+#head{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 40%;
+    text-decoration: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: greenyellow;
+    border-radius: 10px ;
+    width: 20%;
+}
+.adding {
+    word-spacing: 10%;
+    padding: 20px;}
+.container{
+   background-color:greenyellow;
+    height: 450px;
+    width: 60%;
+    margin: 50px;
+    margin-left: 300px;
+}
+.filtering
+{
+    padding: 10px;
+    word-spacing: 10%;
+}
+footer{
+    color: greenyellow;
+    text-align: center;
+}

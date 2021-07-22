@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>To do List 📝</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="./to do.css">
+    </head>
+    <body>
+        <h1 id="head">To Do List 📝</h1>
+        <div class="container">
+            <div class="task">
+                <form class="form">
+                    <label><h5>Tasks</h5> </label><br><br>
+                    <input class="ip" type="text" value="" placeholder="Write the task here" >
+                    <button class="addbtn btn btn-dark" type="submit" value="Add">Add task</button>  
+                </form>      
+            </div>
+            <div class="filtering">
+                <label><h5>Tasks List</h5></label><br><br>
+                <input class="filter"type="text" value="" placeholder="Filter task">
+                <ul class="collections"></ul>
+            </div>
+            <div class="clr">
+                <button type="button" class="btn btn-dark" >Clear Tasks</button>
+            </div>
+        
+        </div>
+        <footer><span class="pending"></span> </footer>
+    <script src="./to do.js"></script>
+    </body>
+</html>
